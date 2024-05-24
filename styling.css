@@ -1,0 +1,126 @@
+h1{
+    background-color: #FFD700;
+    font-family: 'Bungee Spice';font-size: 22px;
+}
+
+body {
+    background-color: #F5F5DC; /* Warm Beige */
+    color: #333333; /* Dark Charcoal */
+    font-family: "Sedan SC", serif;
+    text-align: center;
+}
+
+header, footer {
+    max-width: 100%;
+    height: auto;
+    background-color: #8B4513; /* Earthy Brown */
+    color: #c71717;
+    padding: 20px;
+    text-align: center;
+    border-radius: 2%;
+}
+
+a {
+    color: #556B2F; /* Safari Green */
+    text-decoration: none;
+    display: inline;
+    
+}
+
+a:hover {
+    color: #FFD700; /* Golden Accent */
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4%;
+    position: relative;
+    margin-top: 25px;
+
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+ul.navigation{
+    
+    background-color: #F5F5DC;
+    padding: 0.5%;
+}
+#i{
+    display: inline;
+    padding:2% ;
+}
+.container-car{
+    max-width: 100%;
+    height: auto;
+    
+}
+.car2{
+    position: relative;
+    height: 150px;
+    width: 250px;
+}
+.car-card1{
+    position:static;
+    transform: translate(-200px,150px);
+}
+.car-card2{
+    position:static;
+    transform: translate(70px,-140px);
+}
+.car-card3{
+    position:inherit;
+    transform: translate(350px,-440px);
+}
+.car-card4{
+    position:absolute;
+    transform: translate(0px,-400px);
+}
+.car-card5{
+    position:absolute;
+    transform: translate(280px,-400px);
+}
+.car-card6{
+    position:absolute;
+    transform: translate(560px,-400px);
+}
+.car-card7{
+    position:absolute;
+    transform: translate(840px,-400px);
+}
+.car-card8{
+    position:absolute;
+    transform: translate(1120px,-400px);
+}
+
+.button {
+    background-color: #556B2F; /* Safari Green */
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #FFD700; /* Golden Accent */
+}
+
+.highlight {
+    color: #FFD700; /* Golden Accent */
+}
+.sedan-sc-regular {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.contactus{
+    padding-bottom: 20px;
+}
+#send{
+    margin-top: 15px;
+}

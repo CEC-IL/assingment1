@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Bungee Spice' rel='stylesheet'>
+</head>
+<body>
+ 
+  <header>
+    <div class="container">
+     <h1>Welcome to Safari Motors</h1>
+       <p><span style="background-color: #FFD700;"> The Most Trusted Car Yard in Kenya</p></span>
+    </div>
+          
+    <nav>
+      <ul class="navigation">
+        <li id="i"><a href="#home">Home</a></li>
+        <li id="i"><a href="#about">About Us</a></li>
+        <li id="i"><a href="#inventory">Inventory</a></li>
+        <li id="i"><a href="#services">Services</a></li>
+        <li id="i"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="hero">
+    <div class="hero-text">
+      <h2>Find Your Dream Car</h2>
+      <p>Explore our wide range of vehicles to suit your needs.</p>
+      <a href="#inventory" class="button">Browse Inventory</a>
+    </div>
+    <div class="hero-image">
+      <img src="car1.png" alt="Safari Motors Hero Image">
+    </div>
+  </section>
+       
+  <section id="about">
+    <div class="container">
+      <h2>About Safari Motors</h2>
+      <p>At Safari Motors, we pride ourselves on offering a diverse selection of vehicles to meet all your needs. Our team is dedicated to providing exceptional customer service and support.</p>
+    </div>
+  </section>
+  <section id="inventory">
+    <div class="container-car">
+      <h2>Our Inventory</h2>
+      
+                <!-- Repeat this block for each car -->
+        <div class="car-card1">
+          <img class="car2" src="car2.png" alt="Car Name">
+          <h3>Lightning_McQueen</h3>
+          <p>Car Description</p>
+          <a href="https://en.wikipedia.org/wiki/Lightning_McQueen" class="button">View Details</a>
+        </div>
+        <div class="car-card2">
+          <img class="car2" src="lamborghini.jpg" alt="Car Name">
+          <h3>Lamborghini Aventador</h3>
+          <p>Car Description</p>
+          <a href="https://www.lamborghini.com/en-en/models/aventador" class="button">View Details</a>
+        </div>
+        <div class="car-card3">
+          <img class="car2" src="royce.png" alt="Car Name">
+          <h3>Rolls Royce Spectre </h3>
+          <p>Car Description</p>
+          <a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/spectre.html" class="button">View Details</a>
+        </div>
+        <div class="car-card4">
+          <img class="car2" src="bugati.png" alt="Bugati">
+          <h3>Bugati</h3>
+          <p>Car Description</p>
+          <a href="https://www.bugatti.com/the-bugatti-heritage/modern-icons/veyron/" class="button">View Details</a>
+        </div>
+        <div class="car-card5">
+          <img class="car2" src="ford.png" alt="Ford Raptor">
+          <h3>Ford Raptor</h3>
+          <p>Car Description</p>
+          <a href="https://www.ford.com/trucks/f150/models/f150-raptor/" class="button">View Details</a>
+        </div>
+        <div class="car-card6">
+          <img class="car2" src="rover.png" alt="Land Rover">
+          <h3>Land Rover</h3>
+          <p>Car Description</p>
+          <a href="https://www.landroverusa.com/defender/defender/trophy-edition.html" class="button">View Details</a>
+        </div>
+        <div class="car-card7">
+          <img class="car2" src="lexus.png" alt="Car Name">
+          <h3>Lexus RX350</h3>
+          <p>Car Description</p>
+          <a href="https://www.lexus.com/models/RX" class="button">View Details</a>
+        </div>
+        <div class="car-card8">
+          <img class="car2" src="martin.png" alt="Car Name">
+          <h3>Aston Martin</h3>
+          <p>Car Description</p>
+          <a href="https://www.astonmartin.com/en/welcome" class="button">View Details</a>
+        </div>
+
+                <!-- End repeat -->
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Vehicle Financing</li>
+        <li>Trade-In Offers</li>
+        <li>After-Sales Support</li>
+        <li>Vehicle Servicing</li>
+      <ul>
+     </div>
+  </section>
+
+  <section id="contact">
+    <div class="contactus">
+      <h2>Contact Us</h2>
+      <p>We'd love to hear from you! Get in touch with us through the following methods:</p>
+      <ul>
+        <li>Email: info@safarimotors.co.ke</li>
+        <li>Phone: +254 123 456 789</li>
+        <li>Address: 123 Safari Street, Nairobi, Kenya</li>
+      </ul>
+      <form action="path/to/form-submission" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit" class="button"id="send">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer style="background-color: #8B4513">
+    <div class="container">
+      <p>&copy; 2024 Safari Motors. All Rights Reserved.</p>
+      <ul>
+        <li><a href="#privacy-policy">Privacy Policy</a></li>
+        <li><a href="#terms-of-service">Terms of Service</a></li>
+      </ul>
+    </div>
+  </footer>
+          
+
+    
+    
+</body>
+</html>
